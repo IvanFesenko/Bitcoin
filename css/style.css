@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container-main {
+  background: url(../img/main-bg.png);
+  background-size: cover;
+  content: ".";
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.yellow {
+  color: #ffcf59;
+}
+.footer {
+  height: 510px;
+  width: 1920px;
+}
+.container-footer {
+  background: url(../img/footer-bg.png);
+  background-size: cover;
+  content: ".";
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.donations-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 569px;
+  margin-right: 569px;
+  padding-top: 212px;
+}
